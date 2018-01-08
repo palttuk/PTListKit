@@ -6,7 +6,7 @@
 //  Copyright © 2018년 heeso Kim. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for PTListKit.
 FOUNDATION_EXPORT double PTListKitVersionNumber;

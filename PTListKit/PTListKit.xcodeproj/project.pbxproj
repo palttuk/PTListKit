@@ -7,113 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		086C33EC2003E440000D3133 /* PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C33E22003E440000D3133 /* PTListKit.framework */; };
-		086C33F12003E440000D3133 /* PTListKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C33F02003E440000D3133 /* PTListKitTests.swift */; };
-		086C33F32003E440000D3133 /* PTListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 086C33E52003E440000D3133 /* PTListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75683BC09FC402283F779484 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */; };
-		EA18B5E1FD362BEF04117473 /* Pods_PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39322385F2E109B1A3122888 /* Pods_PTListKit.framework */; };
+		084121E72003E58400F7E8A4 /* PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084121DD2003E58400F7E8A4 /* PTListKit.framework */; };
+		084121EC2003E58400F7E8A4 /* PTListKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084121EB2003E58400F7E8A4 /* PTListKitTests.swift */; };
+		084121EE2003E58400F7E8A4 /* PTListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 084121E02003E58400F7E8A4 /* PTListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1721755FBB6DB1EC528F17EC /* Pods_PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335639D9FCB0644BBA16CEE9 /* Pods_PTListKit.framework */; };
+		7D62964B648B6E7444D44F23 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FE22CA2AEBD4C0F6FA861C /* Pods_PTListKit_PTListKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		086C33ED2003E440000D3133 /* PBXContainerItemProxy */ = {
+		084121E82003E58400F7E8A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 086C33D92003E440000D3133 /* Project object */;
+			containerPortal = 084121D42003E58400F7E8A4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 086C33E12003E440000D3133;
+			remoteGlobalIDString = 084121DC2003E58400F7E8A4;
 			remoteInfo = PTListKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		086C33E22003E440000D3133 /* PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		086C33E52003E440000D3133 /* PTListKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTListKit.h; sourceTree = "<group>"; };
-		086C33E62003E440000D3133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		086C33EB2003E440000D3133 /* PTListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		086C33F02003E440000D3133 /* PTListKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTListKitTests.swift; sourceTree = "<group>"; };
-		086C33F22003E440000D3133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		39322385F2E109B1A3122888 /* Pods_PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.debug.xcconfig"; sourceTree = "<group>"; };
-		567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit_PTListKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.release.xcconfig"; sourceTree = "<group>"; };
-		8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0784DD5D62AFB40EA4A4AF20 /* Pods-PTListKit-PTListKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		084121DD2003E58400F7E8A4 /* PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		084121E02003E58400F7E8A4 /* PTListKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTListKit.h; sourceTree = "<group>"; };
+		084121E12003E58400F7E8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084121E62003E58400F7E8A4 /* PTListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084121EB2003E58400F7E8A4 /* PTListKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTListKitTests.swift; sourceTree = "<group>"; };
+		084121ED2003E58400F7E8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C57C79DFC281A09D48FC1D2 /* Pods-PTListKit-PTListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		335639D9FCB0644BBA16CEE9 /* Pods_PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FE22CA2AEBD4C0F6FA861C /* Pods_PTListKit_PTListKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit_PTListKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A1A4ABCE05E41909008222 /* Pods-PTListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D56E8F7C7B1A6AD1542006 /* Pods-PTListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		086C33DE2003E440000D3133 /* Frameworks */ = {
+		084121D92003E58400F7E8A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA18B5E1FD362BEF04117473 /* Pods_PTListKit.framework in Frameworks */,
+				1721755FBB6DB1EC528F17EC /* Pods_PTListKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		086C33E82003E440000D3133 /* Frameworks */ = {
+		084121E32003E58400F7E8A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086C33EC2003E440000D3133 /* PTListKit.framework in Frameworks */,
-				75683BC09FC402283F779484 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */,
+				084121E72003E58400F7E8A4 /* PTListKit.framework in Frameworks */,
+				7D62964B648B6E7444D44F23 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		086C33D82003E440000D3133 = {
+		084121D32003E58400F7E8A4 = {
 			isa = PBXGroup;
 			children = (
-				086C33E42003E440000D3133 /* PTListKit */,
-				086C33EF2003E440000D3133 /* PTListKitTests */,
-				086C33E32003E440000D3133 /* Products */,
-				5D2359A720841B844E695929 /* Pods */,
-				F85339C10ED09C3828610A78 /* Frameworks */,
+				084121DF2003E58400F7E8A4 /* PTListKit */,
+				084121EA2003E58400F7E8A4 /* PTListKitTests */,
+				084121DE2003E58400F7E8A4 /* Products */,
+				6B1E7C9AEEA866C58B208875 /* Pods */,
+				D00B7E4970707025A3E46115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		086C33E32003E440000D3133 /* Products */ = {
+		084121DE2003E58400F7E8A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				086C33E22003E440000D3133 /* PTListKit.framework */,
-				086C33EB2003E440000D3133 /* PTListKitTests.xctest */,
+				084121DD2003E58400F7E8A4 /* PTListKit.framework */,
+				084121E62003E58400F7E8A4 /* PTListKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		086C33E42003E440000D3133 /* PTListKit */ = {
+		084121DF2003E58400F7E8A4 /* PTListKit */ = {
 			isa = PBXGroup;
 			children = (
-				086C33E52003E440000D3133 /* PTListKit.h */,
-				086C33E62003E440000D3133 /* Info.plist */,
+				084121E02003E58400F7E8A4 /* PTListKit.h */,
+				084121E12003E58400F7E8A4 /* Info.plist */,
 			);
 			path = PTListKit;
 			sourceTree = "<group>";
 		};
-		086C33EF2003E440000D3133 /* PTListKitTests */ = {
+		084121EA2003E58400F7E8A4 /* PTListKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				086C33F02003E440000D3133 /* PTListKitTests.swift */,
-				086C33F22003E440000D3133 /* Info.plist */,
+				084121EB2003E58400F7E8A4 /* PTListKitTests.swift */,
+				084121ED2003E58400F7E8A4 /* Info.plist */,
 			);
 			path = PTListKitTests;
 			sourceTree = "<group>";
 		};
-		5D2359A720841B844E695929 /* Pods */ = {
+		6B1E7C9AEEA866C58B208875 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */,
-				79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */,
-				8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */,
-				224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */,
+				C8A1A4ABCE05E41909008222 /* Pods-PTListKit.debug.xcconfig */,
+				C8D56E8F7C7B1A6AD1542006 /* Pods-PTListKit.release.xcconfig */,
+				0784DD5D62AFB40EA4A4AF20 /* Pods-PTListKit-PTListKitTests.debug.xcconfig */,
+				1C57C79DFC281A09D48FC1D2 /* Pods-PTListKit-PTListKitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F85339C10ED09C3828610A78 /* Frameworks */ = {
+		D00B7E4970707025A3E46115 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39322385F2E109B1A3122888 /* Pods_PTListKit.framework */,
-				567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */,
+				335639D9FCB0644BBA16CEE9 /* Pods_PTListKit.framework */,
+				75FE22CA2AEBD4C0F6FA861C /* Pods_PTListKit_PTListKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,27 +121,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		086C33DF2003E440000D3133 /* Headers */ = {
+		084121DA2003E58400F7E8A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086C33F32003E440000D3133 /* PTListKit.h in Headers */,
+				084121EE2003E58400F7E8A4 /* PTListKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		086C33E12003E440000D3133 /* PTListKit */ = {
+		084121DC2003E58400F7E8A4 /* PTListKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 086C33F62003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKit" */;
+			buildConfigurationList = 084121F12003E58400F7E8A4 /* Build configuration list for PBXNativeTarget "PTListKit" */;
 			buildPhases = (
-				2B0090C7D293EB8F3937DAA6 /* [CP] Check Pods Manifest.lock */,
-				086C33DD2003E440000D3133 /* Sources */,
-				086C33DE2003E440000D3133 /* Frameworks */,
-				086C33DF2003E440000D3133 /* Headers */,
-				086C33E02003E440000D3133 /* Resources */,
-				1C5F6DA053A421A5BE861F57 /* [CP] Copy Pods Resources */,
+				B6D5B98601F235A2DFF1A832 /* [CP] Check Pods Manifest.lock */,
+				084121D82003E58400F7E8A4 /* Sources */,
+				084121D92003E58400F7E8A4 /* Frameworks */,
+				084121DA2003E58400F7E8A4 /* Headers */,
+				084121DB2003E58400F7E8A4 /* Resources */,
+				E43EB27ACF5F669F3E800FFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,77 +149,77 @@
 			);
 			name = PTListKit;
 			productName = PTListKit;
-			productReference = 086C33E22003E440000D3133 /* PTListKit.framework */;
+			productReference = 084121DD2003E58400F7E8A4 /* PTListKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		086C33EA2003E440000D3133 /* PTListKitTests */ = {
+		084121E52003E58400F7E8A4 /* PTListKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 086C33F92003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKitTests" */;
+			buildConfigurationList = 084121F42003E58400F7E8A4 /* Build configuration list for PBXNativeTarget "PTListKitTests" */;
 			buildPhases = (
-				BED35B7850E46B5E712D4CD5 /* [CP] Check Pods Manifest.lock */,
-				086C33E72003E440000D3133 /* Sources */,
-				086C33E82003E440000D3133 /* Frameworks */,
-				086C33E92003E440000D3133 /* Resources */,
-				4D5234056396AC7371C69F7C /* [CP] Embed Pods Frameworks */,
-				C3AC31C93D2246CF0240F27E /* [CP] Copy Pods Resources */,
+				CD95583A49ED3CF866C4C9C9 /* [CP] Check Pods Manifest.lock */,
+				084121E22003E58400F7E8A4 /* Sources */,
+				084121E32003E58400F7E8A4 /* Frameworks */,
+				084121E42003E58400F7E8A4 /* Resources */,
+				355EDC60B7BCAC3AB7A2F282 /* [CP] Embed Pods Frameworks */,
+				C17924E7E4A37A88F0C9AA5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				086C33EE2003E440000D3133 /* PBXTargetDependency */,
+				084121E92003E58400F7E8A4 /* PBXTargetDependency */,
 			);
 			name = PTListKitTests;
 			productName = PTListKitTests;
-			productReference = 086C33EB2003E440000D3133 /* PTListKitTests.xctest */;
+			productReference = 084121E62003E58400F7E8A4 /* PTListKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		086C33D92003E440000D3133 /* Project object */ = {
+		084121D42003E58400F7E8A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "heeso Kim";
 				TargetAttributes = {
-					086C33E12003E440000D3133 = {
+					084121DC2003E58400F7E8A4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					086C33EA2003E440000D3133 = {
+					084121E52003E58400F7E8A4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 086C33DC2003E440000D3133 /* Build configuration list for PBXProject "PTListKit" */;
+			buildConfigurationList = 084121D72003E58400F7E8A4 /* Build configuration list for PBXProject "PTListKit" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 086C33D82003E440000D3133;
-			productRefGroup = 086C33E32003E440000D3133 /* Products */;
+			mainGroup = 084121D32003E58400F7E8A4;
+			productRefGroup = 084121DE2003E58400F7E8A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				086C33E12003E440000D3133 /* PTListKit */,
-				086C33EA2003E440000D3133 /* PTListKitTests */,
+				084121DC2003E58400F7E8A4 /* PTListKit */,
+				084121E52003E58400F7E8A4 /* PTListKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		086C33E02003E440000D3133 /* Resources */ = {
+		084121DB2003E58400F7E8A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		086C33E92003E440000D3133 /* Resources */ = {
+		084121E42003E58400F7E8A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,37 +229,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C5F6DA053A421A5BE861F57 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B0090C7D293EB8F3937DAA6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4D5234056396AC7371C69F7C /* [CP] Embed Pods Frameworks */ = {
+		355EDC60B7BCAC3AB7A2F282 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,7 +244,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BED35B7850E46B5E712D4CD5 /* [CP] Check Pods Manifest.lock */ = {
+		B6D5B98601F235A2DFF1A832 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,7 +259,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C3AC31C93D2246CF0240F27E /* [CP] Copy Pods Resources */ = {
+		C17924E7E4A37A88F0C9AA5C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,36 +274,66 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CD95583A49ED3CF866C4C9C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E43EB27ACF5F669F3E800FFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		086C33DD2003E440000D3133 /* Sources */ = {
+		084121D82003E58400F7E8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		086C33E72003E440000D3133 /* Sources */ = {
+		084121E22003E58400F7E8A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086C33F12003E440000D3133 /* PTListKitTests.swift in Sources */,
+				084121EC2003E58400F7E8A4 /* PTListKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		086C33EE2003E440000D3133 /* PBXTargetDependency */ = {
+		084121E92003E58400F7E8A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 086C33E12003E440000D3133 /* PTListKit */;
-			targetProxy = 086C33ED2003E440000D3133 /* PBXContainerItemProxy */;
+			target = 084121DC2003E58400F7E8A4 /* PTListKit */;
+			targetProxy = 084121E82003E58400F7E8A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		086C33F42003E440000D3133 /* Debug */ = {
+		084121EF2003E58400F7E8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +362,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -382,10 +382,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -393,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		086C33F52003E440000D3133 /* Release */ = {
+		084121F02003E58400F7E8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,7 +422,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -436,118 +436,117 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		086C33F72003E440000D3133 /* Debug */ = {
+		084121F22003E58400F7E8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */;
+			baseConfigurationReference = C8A1A4ABCE05E41909008222 /* Pods-PTListKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = PTListKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		086C33F82003E440000D3133 /* Release */ = {
+		084121F32003E58400F7E8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */;
+			baseConfigurationReference = C8D56E8F7C7B1A6AD1542006 /* Pods-PTListKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = PTListKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		086C33FA2003E440000D3133 /* Debug */ = {
+		084121F52003E58400F7E8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */;
+			baseConfigurationReference = 0784DD5D62AFB40EA4A4AF20 /* Pods-PTListKit-PTListKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PTListKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		086C33FB2003E440000D3133 /* Release */ = {
+		084121F62003E58400F7E8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */;
+			baseConfigurationReference = 1C57C79DFC281A09D48FC1D2 /* Pods-PTListKit-PTListKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PTListKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		086C33DC2003E440000D3133 /* Build configuration list for PBXProject "PTListKit" */ = {
+		084121D72003E58400F7E8A4 /* Build configuration list for PBXProject "PTListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				086C33F42003E440000D3133 /* Debug */,
-				086C33F52003E440000D3133 /* Release */,
+				084121EF2003E58400F7E8A4 /* Debug */,
+				084121F02003E58400F7E8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		086C33F62003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKit" */ = {
+		084121F12003E58400F7E8A4 /* Build configuration list for PBXNativeTarget "PTListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				086C33F72003E440000D3133 /* Debug */,
-				086C33F82003E440000D3133 /* Release */,
+				084121F22003E58400F7E8A4 /* Debug */,
+				084121F32003E58400F7E8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		086C33F92003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKitTests" */ = {
+		084121F42003E58400F7E8A4 /* Build configuration list for PBXNativeTarget "PTListKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				086C33FA2003E440000D3133 /* Debug */,
-				086C33FB2003E440000D3133 /* Release */,
+				084121F52003E58400F7E8A4 /* Debug */,
+				084121F62003E58400F7E8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 086C33D92003E440000D3133 /* Project object */;
+	rootObject = 084121D42003E58400F7E8A4 /* Project object */;
 }
