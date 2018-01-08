@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		084121E72003E58400F7E8A4 /* PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084121DD2003E58400F7E8A4 /* PTListKit.framework */; };
-		084121EC2003E58400F7E8A4 /* PTListKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084121EB2003E58400F7E8A4 /* PTListKitTests.swift */; };
 		084121EE2003E58400F7E8A4 /* PTListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 084121E02003E58400F7E8A4 /* PTListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A09B712003E83500953BAA /* DataSourceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A09B702003E83500953BAA /* DataSourceSpec.swift */; };
+		08A09B7A2003E99500953BAA /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A09B792003E99500953BAA /* CollectionViewDataSource.swift */; };
 		1721755FBB6DB1EC528F17EC /* Pods_PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335639D9FCB0644BBA16CEE9 /* Pods_PTListKit.framework */; };
 		7D62964B648B6E7444D44F23 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FE22CA2AEBD4C0F6FA861C /* Pods_PTListKit_PTListKitTests.framework */; };
 /* End PBXBuildFile section */
@@ -30,8 +31,9 @@
 		084121E02003E58400F7E8A4 /* PTListKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTListKit.h; sourceTree = "<group>"; };
 		084121E12003E58400F7E8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		084121E62003E58400F7E8A4 /* PTListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		084121EB2003E58400F7E8A4 /* PTListKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTListKitTests.swift; sourceTree = "<group>"; };
 		084121ED2003E58400F7E8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A09B702003E83500953BAA /* DataSourceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceSpec.swift; sourceTree = "<group>"; };
+		08A09B792003E99500953BAA /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
 		1C57C79DFC281A09D48FC1D2 /* Pods-PTListKit-PTListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		335639D9FCB0644BBA16CEE9 /* Pods_PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE22CA2AEBD4C0F6FA861C /* Pods_PTListKit_PTListKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit_PTListKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 		084121DF2003E58400F7E8A4 /* PTListKit */ = {
 			isa = PBXGroup;
 			children = (
+				08A09B722003E92700953BAA /* CollectionView */,
 				084121E02003E58400F7E8A4 /* PTListKit.h */,
 				084121E12003E58400F7E8A4 /* Info.plist */,
 			);
@@ -92,10 +95,50 @@
 		084121EA2003E58400F7E8A4 /* PTListKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				084121EB2003E58400F7E8A4 /* PTListKitTests.swift */,
+				08A09B6E2003E81200953BAA /* CollectionView */,
 				084121ED2003E58400F7E8A4 /* Info.plist */,
 			);
 			path = PTListKitTests;
+			sourceTree = "<group>";
+		};
+		08A09B6E2003E81200953BAA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				08A09B6F2003E82300953BAA /* DataSource */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		08A09B6F2003E82300953BAA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				08A09B702003E83500953BAA /* DataSourceSpec.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		08A09B722003E92700953BAA /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				08A09B732003E92C00953BAA /* DataSource */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		08A09B732003E92C00953BAA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				08A09B742003E93300953BAA /* DataSource */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		08A09B742003E93300953BAA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				08A09B792003E99500953BAA /* CollectionViewDataSource.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		6B1E7C9AEEA866C58B208875 /* Pods */ = {
@@ -185,10 +228,12 @@
 				TargetAttributes = {
 					084121DC2003E58400F7E8A4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					084121E52003E58400F7E8A4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -311,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A09B7A2003E99500953BAA /* CollectionViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084121EC2003E58400F7E8A4 /* PTListKitTests.swift in Sources */,
+				08A09B712003E83500953BAA /* DataSourceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8A1A4ABCE05E41909008222 /* Pods-PTListKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -462,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8D56E8F7C7B1A6AD1542006 /* Pods-PTListKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -492,11 +541,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0784DD5D62AFB40EA4A4AF20 /* Pods-PTListKit-PTListKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PTListKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.damwoo.PTListKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -506,6 +558,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C57C79DFC281A09D48FC1D2 /* Pods-PTListKit-PTListKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PTListKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
