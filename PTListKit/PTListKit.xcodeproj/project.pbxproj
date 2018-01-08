@@ -10,6 +10,8 @@
 		086C33EC2003E440000D3133 /* PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086C33E22003E440000D3133 /* PTListKit.framework */; };
 		086C33F12003E440000D3133 /* PTListKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C33F02003E440000D3133 /* PTListKitTests.swift */; };
 		086C33F32003E440000D3133 /* PTListKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 086C33E52003E440000D3133 /* PTListKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75683BC09FC402283F779484 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */; };
+		EA18B5E1FD362BEF04117473 /* Pods_PTListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39322385F2E109B1A3122888 /* Pods_PTListKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,12 @@
 		086C33EB2003E440000D3133 /* PTListKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTListKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		086C33F02003E440000D3133 /* PTListKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTListKitTests.swift; sourceTree = "<group>"; };
 		086C33F22003E440000D3133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		39322385F2E109B1A3122888 /* Pods_PTListKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.debug.xcconfig"; sourceTree = "<group>"; };
+		567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTListKit_PTListKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit.release.xcconfig"; sourceTree = "<group>"; };
+		8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTListKit-PTListKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA18B5E1FD362BEF04117473 /* Pods_PTListKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086C33EC2003E440000D3133 /* PTListKit.framework in Frameworks */,
+				75683BC09FC402283F779484 /* Pods_PTListKit_PTListKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 				086C33E42003E440000D3133 /* PTListKit */,
 				086C33EF2003E440000D3133 /* PTListKitTests */,
 				086C33E32003E440000D3133 /* Products */,
+				5D2359A720841B844E695929 /* Pods */,
+				F85339C10ED09C3828610A78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +98,26 @@
 			path = PTListKitTests;
 			sourceTree = "<group>";
 		};
+		5D2359A720841B844E695929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */,
+				79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */,
+				8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */,
+				224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F85339C10ED09C3828610A78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39322385F2E109B1A3122888 /* Pods_PTListKit.framework */,
+				567810E700068FD23B338634 /* Pods_PTListKit_PTListKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 086C33F62003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKit" */;
 			buildPhases = (
+				2B0090C7D293EB8F3937DAA6 /* [CP] Check Pods Manifest.lock */,
 				086C33DD2003E440000D3133 /* Sources */,
 				086C33DE2003E440000D3133 /* Frameworks */,
 				086C33DF2003E440000D3133 /* Headers */,
 				086C33E02003E440000D3133 /* Resources */,
+				1C5F6DA053A421A5BE861F57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 086C33F92003E440000D3133 /* Build configuration list for PBXNativeTarget "PTListKitTests" */;
 			buildPhases = (
+				BED35B7850E46B5E712D4CD5 /* [CP] Check Pods Manifest.lock */,
 				086C33E72003E440000D3133 /* Sources */,
 				086C33E82003E440000D3133 /* Frameworks */,
 				086C33E92003E440000D3133 /* Resources */,
+				4D5234056396AC7371C69F7C /* [CP] Embed Pods Frameworks */,
+				C3AC31C93D2246CF0240F27E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +227,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C5F6DA053A421A5BE861F57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit/Pods-PTListKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B0090C7D293EB8F3937DAA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5234056396AC7371C69F7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED35B7850E46B5E712D4CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AC31C93D2246CF0240F27E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PTListKit-PTListKitTests/Pods-PTListKit-PTListKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		086C33DD2003E440000D3133 /* Sources */ = {
@@ -332,6 +447,7 @@
 		};
 		086C33F72003E440000D3133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534F8C45F97EC8F07F86BCFE /* Pods-PTListKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +469,7 @@
 		};
 		086C33F82003E440000D3133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A3543440F773B550C7807A /* Pods-PTListKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +491,7 @@
 		};
 		086C33FA2003E440000D3133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A096F30962632315898C7FD /* Pods-PTListKit-PTListKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -387,6 +505,7 @@
 		};
 		086C33FB2003E440000D3133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224F9D4F0392A7FD058BDB02 /* Pods-PTListKit-PTListKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
